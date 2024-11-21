@@ -1,1 +1,1 @@
-hi hello
+echo "hi hello";
