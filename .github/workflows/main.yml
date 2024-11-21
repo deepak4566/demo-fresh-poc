@@ -35,7 +35,7 @@ jobs:
         
 
         # Connect to the instance and execute the script
-        scp -i private_key  "$SSH_USER@34.45.123.96:~/"
-        ssh -i private_key "$SSH_USER@34.45.123.96" 
+        scp -i private_key $DEPLOY_SCRIPT "$SSH_USER@34.45.123.96:~/"
+        ssh -i private_key "$SSH_USER@34.45.123.96"  "bash ~/Script.sh"
 
         
