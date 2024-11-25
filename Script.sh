@@ -4,7 +4,7 @@
 echo "I am starting the game now"
 
 # Check if the directory exists
-mkdir ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+mkdir ppp
 
 cd demo-fresh-poc
 # Pull latest changes from git repository with sudo permissions
