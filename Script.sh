@@ -5,7 +5,7 @@ echo "I am starting the game now"
 
 # Check if the directory exists
 
-cd demo-fresh-poc
+cd /var/www/html/freshog.cottonseeds.org
 
 mkdir passing-working-fine
 # Pull latest changes from git repository with sudo permissions
