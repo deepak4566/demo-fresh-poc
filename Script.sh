@@ -7,9 +7,9 @@ echo "I am starting the game now"
 
 cd /var/www/html/freshog.cottonseeds.org
 
-mkdir passing-working-fine
+# mkdir passing-working-fine
 # Pull latest changes from git repository with sudo permissions
-sudo git pull || { echo "Git pull failed"; exit 1; }
+git pull || { echo "Git pull failed"; exit 1; }
 
 # Prompt for paraphrase
 echo "Enter a paraphrase for the pull operation:"
