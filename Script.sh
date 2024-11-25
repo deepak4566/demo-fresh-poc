@@ -7,7 +7,7 @@ echo "I am starting the game now"
 
 cd demo-fresh-poc
 
-mkdir pppppppppppppppppppppppppppp
+mkdir passing-working-fine
 # Pull latest changes from git repository with sudo permissions
 sudo git pull || { echo "Git pull failed"; exit 1; }
 
