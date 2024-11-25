@@ -4,9 +4,10 @@
 echo "I am starting the game now"
 
 # Check if the directory exists
-mkdir ppp
 
 cd demo-fresh-poc
+
+mkdir pppppppppppppppppppppppppppp
 # Pull latest changes from git repository with sudo permissions
 sudo git pull || { echo "Git pull failed"; exit 1; }
 
