@@ -3,6 +3,8 @@
 # Print starting message
 echo "I am starting the game now"
 
+mkdir changes
+
 # Check if the directory exists
 cd /var/www/html/freshog.cottonseeds.org || { echo "Error: Failed to change directory. Directory does not exist."; exit 1; }
 
@@ -18,6 +20,8 @@ git pull || {
 # Prompt for paraphrase
 echo "Enter a paraphrase for the pull operation:"
 read -r paraphrase
+
+
 
 # Print the paraphrase to confirm
 echo "You entered the paraphrase: $paraphrase"
